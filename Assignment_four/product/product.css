@@ -1,0 +1,46 @@
+.title
+{
+    color:white;
+    font-size:50px;
+    float: right;
+}
+
+
+.filterDiv
+{
+    float:left;
+    width:50%;
+    text-align: center;
+    top: 50%;
+    left: 30%;
+    transform: translate(0%, 10%);
+    color: white;
+    background-color: rgba(80,80,80,0.8);
+    border-radius: 25px;
+}
+.icon
+{
+    float:left;
+    width:25%;
+    height: 250px;
+    position: relative;
+}
+.info
+{
+    padding-top:30px;
+    padding-left:45%;
+}
+.icon img
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.detail
+{
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.9);
+}
